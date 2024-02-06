@@ -6,7 +6,7 @@
   </a>
   <h3 align="center">Salve Paz</h3>
   <p align="center">
-    Fundamentos de la programacion I
+    Fundamentals of Programming I
   </p>
 </div>
 
@@ -16,25 +16,24 @@
 ![Product Name Screen Shot](https://github.com/JhonatanDczel/img/blob/main/salve-paz-gif.gif)
 
 
-Nacio como un proyecto de colaboracion entre companheros del curso de Fundamentos de la Programacion, como muestra de gratitud a las ensenhanzas impartidas por el docente que dicto el curso.
+It was born as a collaborative project among classmates of the Fundamentals of Programming course, as a token of gratitude for the teachings provided by the instructor who taught the course.
 
-A inicios de semestre nos mostro orgulloso el trabajo que algunos de sus anteriores alumnos hicieron con la biblioteca Galapagos, y no quisimos quedarnos atras!
+At the beginning of the semester, he proudly showed us the work that some of his previous students had done with the Galapagos library, and we didn't want to fall behind!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Iniciando
+## Getting started.
 
-Este es un ejemplo de instrucciones para configurar el proyecto de manera local.
-Para tener una copia local y ejecutarla, sigue los siguientes pasos.
+This is an example of instructions to set up the project locally. To have a local copy and run it, follow these steps.
 
-### Prerequisitos
+### Prerequisites
 
-OpenJDK, puedes verificar si tienes instalada una version de la siguiente manera:
+OpenJDK, you can check if you have it installed by using the following command:
   ```sh
   java --version
   ```
-Deberia devolver algo como:
+It should return something like:
   ```sh
    openjdk 21 2023-09-19
    OpenJDK Runtime Environment (build 21+35)
@@ -43,15 +42,15 @@ Deberia devolver algo como:
 
 ### Installation
 
-1. Clona este repositorio
+1. Clone this repository
    ```sh
    git clone https://github.com/JhonatanDczel/salve-paz.git
    ```
-2. Compila las clases con las bibliotecas `galapagos` y `episunsa` (Incluidas en archivos .jar)
+2. Compile the classes with the `galapagos` and `episunsa` libraries (included in .jar files)
    ```sh
    javac -cp :galapagos.jar:episunsa.jar Mensaje.java
    ```
-3. Ejecuta el programa
+3. Run the program
    ```sh
    java -cp :galapagos.jar:episunsa.jar Mensaje
    ```
